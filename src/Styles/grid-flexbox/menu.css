@@ -1,0 +1,54 @@
+.menu-lateral {
+    width: 365px;
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    row-gap: 3rem;
+}
+
+/* CABEÇALHO DO MENU LATERAL */
+
+.cabecalho-menu-lateral{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 0.1fr;
+    grid-template-rows: 1.2rem auto 1.2rem;
+    font-size: 0.7rem;
+    column-gap: 1rem;
+}
+
+.cabecalho-menu-lateral .link-voltar {
+    grid-row: 2 / 3;
+    place-self: center end;
+}
+
+.cabecalho-menu-lateral .link-aula {
+    grid-column: 2 / 3;
+    grid-row: 2/3;
+}
+
+h4{
+    padding-left: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+/* LINKS DO MENU LATERAL */
+.aulas__menu-lateral {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: grid;
+    grid-auto-rows: min-content ; /* As linhas se ajustam ao conteúdo */
+}
+
+.aulas__menu-lateral li {
+    max-width: 341px;
+}
+
+.aulas__menu-lateral li a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0 1rem 1.5rem;
+    font-size: 0.8rem;
+}

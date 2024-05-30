@@ -1,0 +1,41 @@
+.cabecalho {
+    display: grid;
+    grid-template-columns: 0.45fr auto 1fr;
+    grid-template-rows: 1.2rem auto 1.2rem;
+    column-gap: 2rem;
+}
+
+.cabecalho .simbol {
+    grid-row: 2;
+    justify-self: end;
+}
+
+.cabecalho .titulo {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+}
+
+.cabecalho .titulo span {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+
+.botao-atividade {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+    align-self: center;
+    justify-self: center;
+}
+
+.menu-cabecalho{
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+    align-self: flex-end;
+    justify-self: center;
+    position: relative;
+    bottom: -36px;
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fonte-principal: "Poppins", sans-serif;
+
+    --cor-principal: white;
+    --cor-paragrafos: #C0C0C0;
+    --cor-links: A5A5A5;
+    --cor-link-cabecalho-menu-lateral: #9AACB5;
+
+    --background-color-cabecalho: #333333;
+    --background-color_menu-lateral: #181C1F;
+    --background-color_cabecalho-menu-lateral: #222629;
+    --background-color_principal: #121212;
+    --background-color_botao: #1F5BAB;
+}
+
+body {
+    height: 100vh;
+    color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+}
+
+.cabecalho {
+    background-color: var(--background-color-cabecalho);
+}
+
+.menu-lateral {
+    background-color: var(--background-color_menu-lateral);
+}
+
+.cabecalho-menu-lateral {
+    background-color: var(--background-color_cabecalho-menu-lateral);
+    color: var(--cor-link-cabecalho-menu-lateral);
+}
+
+.aulas__menu-lateral {
+    color: var(--cor-links);
+}
+
+.principal {
+    background-color: var(--background-color_principal);
+    color: var(--cor-paragrafos);
+}
+
+/* BOTÃO 'PRÓXIMA ATIVIDADE' */
+.botao {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    background-color: var(--background-color_botao);
+    padding: 10px 25px;
+    border-radius: 4px;
+}
+
+.botao:hover {
+    background-color: #21579F;
+}
+
+
+.aulas__menu-lateral li:hover {
+    background-color: #333334;
+}
