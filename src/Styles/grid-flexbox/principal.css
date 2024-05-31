@@ -1,7 +1,8 @@
 .principal {
     display: grid;
-    grid-template-rows: 3rem auto 5rem 1fr;
+    grid-template-rows: 3rem auto 3.4rem 1fr;
     grid-template-columns: 0.4fr 1fr 0.4fr;
+    row-gap: 1.5rem;
 }
 
 .principal .conteudo__principal {
@@ -11,4 +12,11 @@
     flex-direction: column;
     gap: 2rem;
     text-align: justify;
+}
+
+.principal .botoes__principal {
+    grid-area: 3 / 2 / 4 / 3;
+    display:flex;
+    justify-self: end;
+    gap: .4rem;
 }
