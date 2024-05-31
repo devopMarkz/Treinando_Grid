@@ -37,7 +37,7 @@ h4{
     overflow-y: scroll;
     overflow-x: hidden;
     display: grid;
-    grid-auto-rows: min-content ; /* As linhas se ajustam ao conteúdo */
+    grid-auto-rows: min-content; /* As linhas se ajustam ao conteúdo */
 }
 
 .aulas__menu-lateral li {
