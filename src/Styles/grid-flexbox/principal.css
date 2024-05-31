@@ -17,6 +17,6 @@
 .principal .botoes__principal {
     grid-area: 3 / 2 / 4 / 3;
     display:flex;
-    justify-self: end;
+    justify-content: end;
     gap: .4rem;
 }

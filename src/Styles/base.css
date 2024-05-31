@@ -71,6 +71,7 @@ body {
     background-color: var(--background-color_botao);
     padding: 10px 25px;
     border-radius: 4px;
+    white-space: nowrap;
 }
 
 .botao:hover {
